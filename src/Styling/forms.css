@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+.form {
+    font-family: 'Proxima Nova', sans-serif; /* Specify the imported font-family */
+    border-style: solid;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    border-width: 1px;
+    margin-top: 60px;
+    margin-right: 80px;
+    flex-direction: column;
+    border-color: #e6e6e7;
+}
+
+
+.wrap{
+    display: flex;
+    padding-left: 330px;
+}
+.wall{
+    display: flex;
+    margin-top:40px;
+}
+
+.outer{
+    display: flex;
+    flex-direction: column;
+}
+
+.form2{
+    border-style: solid;
+    height: 60px;
+    width: 350px;
+    display: flex;
+    border-width:1px;
+    margin-top:10px;
+    margin-right:80px;
+    border-color:#e6e6e7
+    
+
+}
+
+.head{
+    display: flex;
+    justify-content: center ;
+    margin-top:5%;
+}
+
+.textfields{
+    display: flex;
+    flex-direction: column;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+    padding-top:40px;
+}
+.password{
+    padding-top:10px;
+   display: flex;
+   justify-content: center;
+}
+.input-custom:focus{
+   border: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top:12px;
+    border-style:none;
+}
+.or{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    margin-top: 15px;
+}
+
+.text{
+    font-family: 'Proxima Nova', sans-serif;
+    color: #a1a1a8;
+    opacity: 1;  
+    font-size:12px; 
+   font-weight:600;
+}   
+
+.line1{
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    border-top:1px;
+    height: 0px;
+    margin-top:1%;
+    border-color:  #cececf;
+
+}
+.line2{
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    border-top:1px;
+    height: 0px;
+    margin-top:1%;
+    border-color:  #cececf;
+
+}
+
+.forgot{
+    text-decoration: none;
+    font-size:12px;
+    display: flex;
+    justify-content: center;
+    margin-top:7%;
+    font-weight: 0;
+}  
+
+.fb{
+    display:flex;
+    margin-top:10%;
+    justify-content: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size:15px;
+    font-weight: 600;
+    color:#395184;
+
+
+}
+
+.forgot a{
+    text-decoration: none;
+}
+
+.account{
+    display: flex;
+    margin-left:80px;
+    align-items: center;
+  
+}
+span{
+    font-weight: 600;
+    font-family: 'Fuzzy Bubbles', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  
+}
+.fb a{
+    text-decoration: none;
+}
+
+.account a{
+    text-decoration: none;
+    color:#45a4d7;
+}
+
+.font a{
+       color:#395184;
+}
+
+.account div{
+    font-weight: .1rem;
+    font-family: 'Fuzzy Bubbles', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+}
+  
+  .fbicon{
+    width: 20px;
+    margin-right:5px;
+  }
+
+  .getapp{
+    font-family: 'Fuzzy Bubbles', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 350px;
+    margin:15px 0px 15px 0px;
+  }
+
+  .icons{
+    display: flex;
+   margin-left:10px;
+    
+  }
+
+  .msstore{
+    padding-top:20px;
+  }
